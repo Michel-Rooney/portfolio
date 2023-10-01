@@ -6,7 +6,7 @@ function Start() {
       <section className="Start-container">
         <div className="Start-title-container">
           <img
-            src="/src/assets/terminal.png"
+            src="/assets/terminal.png"
             alt="Terminal Simbolo"
             className="Start-title-icon"
           />
@@ -23,7 +23,7 @@ function Start() {
             className="Start-Social-item"
           >
             <img
-              src="/src/assets/technologies/github.png"
+              src="/assets/technologies/github.png"
               alt="GitHub Logo"
               title="GitHub"
               className="Start-Social-item-image"
@@ -36,21 +36,21 @@ function Start() {
             className="Start-Social-item"
           >
             <img
-              src="/src/assets/linkedin.png"
+              src="/assets/linkedin.png"
               alt="Linkedin Logo"
               title="LinkedIn"
               className="Start-Social-item-image"
             />
           </a>
           <a
-            href="/src/assets/Currículo-Michel-Rooney-2023.pdf"
+            href="/assets/Currículo-Michel-Rooney-2023.pdf"
             download="Currículo-Michel-Rooney-2023"
             target="_blank"
             rel="noreferrer"
             className="Start-Social-item"
           >
             <img
-              src="/src/assets/docs.png"
+              src="/assets/docs.png"
               alt="Currículo Logo"
               title="Currículo"
               className="Start-Social-item-image"
@@ -63,7 +63,7 @@ function Start() {
             className="Start-Social-item"
           >
             <img
-              src="/src/assets/gmail.png"
+              src="/assets/gmail.png"
               alt="Gmail Logo"
               title="Gmail"
               className="Start-Social-item-image"

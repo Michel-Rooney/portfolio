@@ -20,7 +20,7 @@ function Header() {
     <>
       <header className="Header">
         <nav className="Header-nav-bar">
-          <img src="/src/assets/dev.png" alt="Dev Logo" className="Header-nav-image" />
+          <img src="/assets/dev.png" alt="Dev Logo" className="Header-nav-image" />
           <ul className="Header-nav-items">
             <li>
               <a href="">Inicio</a>
