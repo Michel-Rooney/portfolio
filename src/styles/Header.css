@@ -2,6 +2,11 @@
   min-height: 100px;
   color: var(--quaternary-color);
   background-color: var(--tertiary-color);
+
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
 }
 
 .Header-nav-bar {
@@ -12,8 +17,7 @@
 }
 
 .Header-nav-image {
-  width: 70px;
-  height: 60px;
+  width: 84px;
   margin-left: 44px;
 }
 
@@ -36,7 +40,7 @@
 }
 
 .Header-nav-hamburguer-items {
-  width: 120px;
+  width: 140px;
   color: var(--quaternary-color);
   background-color: var(--secundary-color);
 
@@ -50,6 +54,7 @@
   top: 50px;
   border-radius: 10px;
 
+  font-size: 20px;
   text-align: center;
   animation: slide-down 1s ease;
 }
@@ -62,13 +67,15 @@
   color: var(--quaternary-color);
 }
 
-@media (max-width: 600px) {
+
+@media (max-width: 540px) {
   .Header-nav-items {
     display: none;
   }
 
   .Header-nav-hamburguer {
     display: flex;
+    z-index: 1;
   }
 }
 
