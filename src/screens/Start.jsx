@@ -71,9 +71,6 @@ function Start() {
           </a>
         </div>
       </section>
-      <section className="Start-about-container">
-        
-      </section>
     </>
   );
 }
